@@ -2,3 +2,43 @@ body {
   font-family: Karla;
   font-style: normal;
 }
+
+.header {
+  height: 6rem;
+  width: 100vw;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 1.846rem 3.416rem;
+}
+
+.header__logo {
+  display: flex;
+}
+
+.header__logo__img {
+  width: 2.89rem;
+  margin-left: -1.569rem;
+}
+
+.header__logo__title {
+  margin-left: 0.646rem;
+  font-weight: 600;
+  font-size: 1.915rem;
+  line-height: 2.216rem;
+  letter-spacing: -0.1em;
+}
+
+.header__project-name {
+  font-weight: 400;
+  font-size: 1.108rem;
+  line-height: 1.385rem;
+  text-align: right;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
