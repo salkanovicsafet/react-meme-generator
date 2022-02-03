@@ -41,4 +41,39 @@ body {
 .container {
   width: 65%;
   margin: 0 auto;
+  padding-top: 3.416rem;
+}
+
+.form__inputs__field {
+  border: 1px solid #d5d4d8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 48%;
+  padding: 1.015rem;
+  font-size: 1.108rem;
+  color: #0d0d0d;
+}
+
+.form__inputs__field + .form__inputs__field {
+  margin-left: 4%;
+}
+
+.form__btn {
+  margin-top: 1.385rem;
+  width: 100%;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  border: 0;
+  font-weight: bold;
+  font-size: 1.477rem;
+  line-height: 1.754rem;
+  text-align: center;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+  padding: 0.923rem 14.308rem;
+}
+
+.form__btn:hover {
+  background: linear-gradient(90.41deg, #351441 1.14%, #3e0d4e 100%);
+  cursor: pointer;
 }

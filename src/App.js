@@ -1,10 +1,13 @@
 import Header from "./components/Header";
+import Meme from "./components/Meme";
 
 export default function App() {
   return (
     <div>
       <Header />
-      <div className="container"></div>
+      <div className="container">
+        <Meme />
+      </div>
     </div>
   );
 }
