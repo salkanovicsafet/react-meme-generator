@@ -78,3 +78,7 @@ body {
   background: linear-gradient(90.41deg, #351441 1.14%, #3e0d4e 100%);
   cursor: pointer;
 }
+
+.meme__img {
+  margin: 3.323rem auto 5.077rem;
+}
