@@ -12,6 +12,7 @@ body {
   align-items: center;
   color: #ffffff;
   padding: 1.846rem 3.416rem;
+  max-width: 100%; /* fixes horizontal scrollbar */
 }
 
 .header__logo {
@@ -79,6 +80,36 @@ body {
   cursor: pointer;
 }
 
+.meme__wrapper {
+  position: relative;
+}
+
 .meme__img {
   margin: 3.323rem auto 5.077rem;
+}
+
+.meme__text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
