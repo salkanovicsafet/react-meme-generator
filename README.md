@@ -1,1 +1,3 @@
-A React project template that I can use in my future projects with all the useless starting files removed. You're free to use it too if you like :)
+Meme generator project I built following a React course to further familiarise myself with state and effects in react.
+
+If you want to use it then fork the repo, run npm i and after that finishes run npm run start
